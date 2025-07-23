@@ -1,0 +1,274 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body 
+{
+    background-color: black;
+}
+.main-div
+{
+    width: 1000px;
+    margin: auto;
+}
+
+/* header css */
+.header-row 
+{
+    width: 1000px;
+    height: 186px;
+    /* border: 1px solid red; */
+    background: url("images/headerbg.jpg");
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1c1 
+{
+    width:333.333333px;
+    height: 186px;
+    padding-left: 61px;
+    padding-top: 13px;
+    /* border: 1px solid yellow; */
+}
+.row1c2 
+{
+    width:333.333333px;
+    height: 186px;
+    /* border: 1px solid yellow; */
+}
+.row1c2 p 
+{
+    text-align: center;
+    color: #00618A;
+    font-weight:bold;
+    font-size:21px;
+    padding-top: 60px;
+    text-transform: capitalize;
+}
+.row1c3 
+{
+    width:333.333333px;
+    height: 186px;
+    /* border: 1px solid yellow; */
+    background: url("images/topcontactbg.png") no-repeat;
+    background-position: center; 
+    text-align: center;
+}
+.info-add 
+{
+    padding-top:40px;
+}
+.spcbtm 
+{
+    margin-bottom: 10px;
+}
+.web-add h2 
+{
+    color: black;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 40px;
+}
+.tel h2
+{
+    text-align: left;
+    padding-left:40px;
+    color:white;
+}
+.email-add h2 
+{
+    color: black;
+}
+/* end */
+
+/* menuBar css */
+.menuBar-row
+{
+    width: 1000px;
+    height: 54px;
+    /* border: 1px solid red; */
+    background: url("images/menubg.jpg") repeat-x;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 59px;
+    /* border: 1px solid yellow; */
+}
+.common 
+{
+    width: 127px;
+    height: 44px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 14px;
+    background: url("images/menubackground.png");
+}
+.common a 
+{
+    text-align: center;
+    color: black;
+}
+.common:hover 
+{
+    background: url("images/menuactive.png");
+}
+.active
+{
+    background: url("images/menuactive.png");
+}
+/* end */
+
+/* sidebarBanner */
+.sideBar-row 
+{
+    width: 1000px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    /* border-bottom: 1px solid red; */
+}
+.sidebar-menu 
+{
+    width: 250px;
+    height: 270px;
+    padding-top: 15.5px;
+    /* border: 1px solid red; */
+    /* background-color: green; */
+}
+.sde-common
+{
+    background: url("images/leftmenubg.png");
+    width: 213px;
+    height: 40px;
+    margin-left: 18.5px;
+    text-align: center;
+    padding-top: 12px;
+}
+.sde-common a 
+{
+    color: black;
+}
+.banner 
+{
+    width: 750px;
+    height: 270px;
+    padding-top: 15.5px;
+    padding-right: 7px;
+    /* background-color: red; */
+    /* border: 1px solid yellow; */
+}
+/* end */
+
+/* course-info css */
+.course-info 
+{
+    width: 1000px;
+    height:190px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.why-iip 
+{
+    width: 250px;
+    height: 190px;
+    /* border: 1px solid yellow; */
+}
+.iip-academy
+{
+    width:213px;
+    height: 190px;
+    margin-left: 18.5px;
+    background: url("images/whybg.jpg") repeat-x;
+    border: 1px solid white;
+    border-radius:10px;
+}
+.iip-academy h4
+{
+    color: white ;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 15px;
+}
+.iip-academy ol 
+{
+    color: white;
+    padding-left:30px;
+    padding-top:20px;
+}
+.iip-academy ol li
+{
+    padding:2px 0px;
+    font-size: 15px;
+}
+.courses 
+{
+    width: 363px;
+    height: 190px;
+    /* border: 1px solid yellow; */
+}
+.course-list 
+{
+    width: 344.5px;
+    height: 190px;
+    /* border: 1px solid red; */
+    background-color: #FDC059;
+}
+.course-list h4
+{
+    color: white ;
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.course-list ol 
+{
+    padding-left:30px;
+}
+.course-list ol li 
+{
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+.course-bn 
+{
+    width:387px;
+    height: 190px;
+    background: url("images/services.jpg") no-repeat;
+    /* border: 1px solid red; */
+}
+/* end */
+
+/* footer */
+.footer 
+{
+    width: 1000px;
+    height: 80px;
+}
+.footer-mid 
+{
+    width: 974.5px;
+    height: 48px;
+    background: url("images/footer_middle.png");
+    margin-left: 18.5px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 16px;
+}
+.footer-mid a
+{
+    padding-left:10px;
+    font-weight: bold;
+    color: black;
+}
+/* end */

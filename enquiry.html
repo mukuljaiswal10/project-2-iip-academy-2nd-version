@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Enquiry-IIP</title>
+    <link rel="stylesheet" href="enquiry.css" />
+  </head>
+  <body>
+    <!-- main-div -->
+    <div class="main-div">
+      <!-- header -->
+      <div class="header-row">
+        <!-- header-row-c1 -->
+        <div class="row1c1">
+          <a href="index.html"><img src="images/logo.png" /></a>
+        </div>
+        <!-- header-row-c2 -->
+        <div class="row1c2">
+          <p>
+            Looking for the Best Place for <br />
+            Programming
+          </p>
+        </div>
+        <!-- header-row-c2 -->
+        <div class="row1c3">
+          <div class="info-add">
+            <div class="web-add spcbtm">
+              <a href="#"><h2>www.iipacademy.com</h2></a>
+            </div>
+            <div class="email-add spcbtm">
+              <a href="mailto:Info@iipacademy.com"
+                ><h2>info@iipacademy.com</h2></a
+              >
+            </div>
+            <div class="tel spcbtm">
+              <a href="tel:+91-9269698122"><h2>+91-9269698122</h2></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- menuBar -->
+      <div class="menuBar-row">
+        <!-- menuBar-home -->
+        <div class="home common">
+          <a href="index.html"><h4>Home</h4></a>
+        </div>
+        <!-- menuBar-about -->
+        <div class="about common">
+          <a href="about.html"><h4>About</h4></a>
+        </div>
+        <!-- menuBar-course -->
+        <div class="course common">
+          <a href="course.html"><h4>Course</h4></a>
+        </div>
+        <!-- menuBar-gallery -->
+        <div class="gallery common">
+          <a href="gallery.html"><h4>Gallery</h4></a>
+        </div>
+        <!-- menuBar-enquiry -->
+        <div class="enquiry common active">
+          <a href="enquiry.html"><h4>Enquiry</h4></a>
+        </div>
+        <!-- menuBar-contact -->
+        <div class="contact common">
+          <a href="contact.html"><h4>Contact Us</h4></a>
+        </div>
+      </div>
+
+      <!-- sideBarBanner -->
+      <div class="sideBar-row">
+        <!-- sideBar-menu -->
+        <div class="sidebar-menu">
+          <!-- sidebar-home -->
+          <div class="sidebar-home sde-common">
+            <a href="index.html"><h4>Home</h4></a>
+          </div>
+          <!-- sidebar-about -->
+          <div class="sidebar-about sde-common">
+            <a href="about.html"><h4>About</h4></a>
+          </div>
+          <!-- sidebar-course -->
+          <div class="sidebar-course sde-common">
+            <a href="course.html"><h4>Course</h4></a>
+          </div>
+          <!-- sidebar-gallery -->
+          <div class="sidebar-gallery sde-common">
+            <a href="gallery.html"><h4>Gallery</h4></a>
+          </div>
+          <!-- sidebar-enquiry -->
+          <div class="sidebar-enquiry sde-common">
+            <a href="enquiry.html"><h4>Enquiry</h4></a>
+          </div>
+          <!-- sidebar-home -->
+          <div class="sidebar-contact sde-common">
+            <a href="contact.html"><h4>Contact</h4></a>
+          </div>
+        </div>
+        <!-- banner -->
+        <div class="enquiry-section">
+          <div class="enquiry-head">
+            <h2>Enquiry</h2>
+          </div>
+          <div class="enquiry-form">
+            <form>
+              <div class="input-outer">
+                <div class="gen">
+                  <span>Gender :</span>
+                </div>
+
+                <div class="gen-choice">
+                  <div class="male">
+                    <label for="male">Male :</label>
+                    <input
+                      type="radio"
+                      id="male"
+                      name="gen"
+                      value="male"
+                      required
+                    />
+                  </div>
+
+                  <div class="female">
+                    <label for="female">Female :</label>
+                    <input
+                      type="radio"
+                      id="female"
+                      name="gen"
+                      value="female"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="name">Name :</label>
+                </div>
+
+                <div class="field">
+                  <input
+                    class="inp"
+                    type="text"
+                    id="name"
+                    required
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="contact">Contact :</label>
+                </div>
+
+                <div class="field">
+                  <input
+                    class="inp"
+                    type="tel"
+                    id="contact"
+                    required
+                    placeholder="Enter Your Mobile No"
+                    pattern="[0-9]{10}"
+                  />
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="coun">Country :</label>
+                </div>
+
+                <div class="field">
+                  <select id="coun" required class="sel">
+                    <option>--Select--</option>
+                    <option>India</option>
+                    <option>Nepal</option>
+                    <option>Bhutan</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="state">State :</label>
+                </div>
+
+                <div class="field">
+                  <select id="state" required class="sel">
+                    <option>--Select--</option>
+                    <option>UP</option>
+                    <option>MP</option>
+                    <option>Bihar</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="city">City :</label>
+                </div>
+
+                <div class="field">
+                  <select id="city" required class="sel">
+                    <option>--Select--</option>
+                    <option>GKP</option>
+                    <option>Jaipur</option>
+                    <option>Bhopal</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="add">Address :</label>
+                </div>
+
+                <div class="field">
+                  <textarea id="add" required></textarea>
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="email">Email :</label>
+                </div>
+
+                <div class="field">
+                  <input
+                    class="inp"
+                    type="email"
+                    id="email"
+                    required
+                    placeholder="xyz@gmail.com"
+                  />
+                </div>
+              </div>
+
+              <div class="input-outer2">
+                <div class="lab">
+                  <label for="enq">Enquiry :</label>
+                </div>
+
+                <div class="field">
+                  <textarea id="enq" required></textarea>
+                </div>
+              </div>
+
+              <div class="btn">
+                <button type="submit">Save</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="footer-mid">
+          <a href="index.html">Home</a> &nbsp; &nbsp;|
+          <a href="about.html">About</a> &nbsp; &nbsp;|
+          <a href="course.html">Course</a> &nbsp; &nbsp;|
+          <a href="gallery.html">Gallery</a> &nbsp; &nbsp;|
+          <a href="enquiry.html">Enquiry</a> &nbsp; &nbsp;|
+          <a href="contact.html">Contact Us</a> &nbsp; &nbsp;
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
